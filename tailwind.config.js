@@ -15,7 +15,11 @@ module.exports = {
         'color-2': '#85868f',
         'color-3': '#17181f',
         'color-4': '#d2d3dc',
-        'color-5': '#afb1b7'
+        'color-5': '#afb1b7',
+        'color-6': '#1d1e26'
+      },
+      backgroundImage: {
+        'add_button': 'url("/assets/icons/add_button.svg")'
       }
     },
   },
