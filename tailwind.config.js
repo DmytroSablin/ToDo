@@ -12,8 +12,10 @@ module.exports = {
       },
       colors: {
         'color-1': '#20212c',
-        'color-2': '#90919a',
+        'color-2': '#85868f',
         'color-3': '#17181f',
+        'color-4': '#d2d3dc',
+        'color-5': '#afb1b7'
       }
     },
   },
