@@ -9,9 +9,9 @@ const Body = (props) => {
         <div className={`h-screen bg-color-3 ${props.navstatus ? `grid grid-cols-body` : ``}`}>
             {props.navstatus && <NavBar setModalStatus={props.setModalStatus} collections={props.collections} />}
             <Routes>
-                {props.collections.map(collection => <Route path={`/${collection}`} element={<Collection />} />)}
+                {props.collections.map(collection => <Route path={`/${collection}`} element={<Collection collname={collection} />} />)}
             </Routes>
-            <Modal modalStatus={props.modalStatus} setModalStatus={props.setModalStatus} />
+            <Modal modalStatus={props.modalStatus} setModalStatus={props.setModalStatus} setCollections={props.setCollections} collections={props.collections} />
         </div>
     )
 }
