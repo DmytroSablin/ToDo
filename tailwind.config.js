@@ -19,7 +19,9 @@ module.exports = {
         'color-6': '#1d1e26'
       },
       backgroundImage: {
-        'add_button': 'url("/assets/icons/add_button.svg")'
+        'add_button': 'url("/assets/icons/add_button.svg")',
+        'check': 'url("/assets/icons/check.svg")',
+        'menu': 'url("/assets/icons/menu.svg")'
       }
     },
   },
